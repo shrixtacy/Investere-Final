@@ -41,27 +41,6 @@
 
 ## Workflow Diagram
 
-```mermaid
-graph TD;
-    A[User Request] -->|Fetch Market Data| B[API Data Collection]
-    B -->|Process & Clean Data| C[Data Processing]
-    C -->|Analyze Trends & Predictions| D[AI-Based Analysis]
-    D -->|Generate Reports & Charts| E[Data Visualization]
-    E -->|Provide Insights & Recommendations| F[User Decision Making]
-    
-    subgraph Backend
-        B
-        C
-        D
-    end
-    
-    subgraph Frontend
-        A
-        E
-        F
-    end
-
-   
 2. **Data Preprocessing & Integration**
    - Raw financial data undergoes cleaning, structuring, and storage.
    - AI algorithms analyze historical trends, assess risks, and identify patterns.
