@@ -62,15 +62,14 @@
 ## Project Execution & Implementation
 
 ### Data Sources & Collection
-- Integration with financial market APIs (e.g., Alpha Vantage, Yahoo Finance, IEX Cloud) for real-time stock data.
-- Sentiment analysis using news aggregators (e.g., Google News, Twitter API, financial blogs) to determine market trends.
+- Integration with financial market API of TwelveData for real-time stock data.
+- Sentiment analysis using news aggregators ( For current finance news we have used NewsOrg's API ) to determine market trends.
 - Processing corporate financial reports, earnings statements, and regulatory filings.
 - Enabling user-generated data input for custom portfolio tracking.
 
 ### Data Processing & Storage
 - Financial data undergoes preprocessing using Danfo.js for structuring and cleaning.
 - AI-powered risk assessment models analyze market volatility and stock performance.
-- Structured data is securely stored in PostgreSQL/MongoDB for rapid retrieval.
 - Redis caching ensures optimal response time for real-time investment updates.
 
 ### Visualization & Predictive Insights
